@@ -1,30 +1,22 @@
 const PRODUCTS = [
-    {
-        id: 1,
-        name: "Ração Premium Cães",
-        price: 120,
-        category: "dog",
-        image: "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e"
-    },
-    {
-        id: 2,
-        name: "Brinquedo Mordedor",
-        price: 35,
-        category: "dog",
-        image: "https://images.unsplash.com/photo-1601758123927-196a2f79c4b3"
-    },
-    {
-        id: 3,
-        name: "Ração Gatos",
-        price: 90,
-        category: "cat",
-        image: "https://images.unsplash.com/photo-1518791841217-8f162f1e1131"
-    },
-    {
-        id: 4,
-        name: "Arranhador Premium",
-        price: 150,
-        category: "cat",
-        image: "https://images.unsplash.com/photo-1595433707802-66f9ddcfb3f3"
-    }
+    {id:1,name:"Ração Premium Cães",price:120,category:"dog",image:"https://images.unsplash.com/photo-1583511655857-d19b40a7a54e"},
+    {id:2,name:"Ração Super Premium",price:180,category:"dog",image:"https://images.unsplash.com/photo-1560807707-8cc77767d783"},
+    {id:3,name:"Petisco Natural",price:25,category:"dog",image:"https://images.unsplash.com/photo-1601758124510-52d02ddb7cbd"},
+    {id:4,name:"Brinquedo Mordedor",price:35,category:"dog",image:"https://images.unsplash.com/photo-1601758123927-196a2f79c4b3"},
+    {id:5,name:"Coleira Ajustável",price:40,category:"dog",image:"https://images.unsplash.com/photo-1598137269460-2b1b4a5bc9a2"},
+    {id:6,name:"Cama Pet Confort",price:150,category:"dog",image:"https://images.unsplash.com/photo-1601758003122-58d1c8d8a9b1"},
+    {id:7,name:"Ração Gatos",price:90,category:"cat",image:"https://images.unsplash.com/photo-1518791841217-8f162f1e1131"},
+    {id:8,name:"Ração Premium Gatos",price:140,category:"cat",image:"https://images.unsplash.com/photo-1595433707802-66f9ddcfb3f3"},
+    {id:9,name:"Areia Higiênica",price:60,category:"cat",image:"https://images.unsplash.com/photo-1601758174114-e711c0cbaa69"},
+    {id:10,name:"Arranhador Luxo",price:200,category:"cat",image:"https://images.unsplash.com/photo-1574158622682-e40e69881006"},
+    {id:11,name:"Brinquedo Laser",price:45,category:"cat",image:"https://images.unsplash.com/photo-1555685812-4b743b7c2f8d"},
+    {id:12,name:"Fonte de Água",price:180,category:"cat",image:"https://images.unsplash.com/photo-1601758173927-196a2f79c4b3"},
+    {id:13,name:"Shampoo Pet",price:30,category:"other",image:"https://images.unsplash.com/photo-1619983081563-430f63602796"},
+    {id:14,name:"Condicionador Pet",price:35,category:"other",image:"https://images.unsplash.com/photo-1622445272461-c6580f5d8f8c"},
+    {id:15,name:"Escova de Pelos",price:20,category:"other",image:"https://images.unsplash.com/photo-1583337130417-3346a1be7dee"},
+    {id:16,name:"Caixa Transporte",price:220,category:"other",image:"https://images.unsplash.com/photo-1601758123927-196a2f79c4b3"},
+    {id:17,name:"Roupa Pet",price:70,category:"dog",image:"https://images.unsplash.com/photo-1598137269460-2b1b4a5bc9a2"},
+    {id:18,name:"Tapete Higiênico",price:80,category:"dog",image:"https://images.unsplash.com/photo-1601758174114-e711c0cbaa69"},
+    {id:19,name:"Comedouro Automático",price:250,category:"cat",image:"https://images.unsplash.com/photo-1601758003122-58d1c8d8a9b1"},
+    {id:20,name:"Bebedouro Pet",price:90,category:"dog",image:"https://images.unsplash.com/photo-1583512603789-5c4b1d0d3f7d"}
 ];
