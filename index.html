@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PetShop PRO+</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
+<header>
+    <h1>🐾 PetShop PRO+</h1>
+
+    <div class="actions">
+        <input type="text" id="search" placeholder="Buscar produtos...">
+        
+        <select id="filter">
+            <option value="all">Todos</option>
+            <option value="dog">Cachorro</option>
+            <option value="cat">Gato</option>
+        </select>
+
+        <div class="cart">
+            🛒 <span id="cart-count">0</span>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div id="products" class="grid"></div>
+</main>
+
+<div id="toast" class="toast"></div>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
